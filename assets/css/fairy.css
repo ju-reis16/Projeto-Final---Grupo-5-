@@ -18,3 +18,56 @@ body {
     justify-content: center;
     gap: 50px;
 }
+.botoes {
+    display: flex;
+    padding-right: 33%;
+}
+
+.apresentacao h1 {
+    margin-left: 200px;
+    font-style: italic;
+    font-weight: 1000;
+}
+
+.apresentacao h2 {
+    margin-left: 100px;
+    margin-top: 50px;
+    font-weight: 850;
+}
+
+.apresentacao p {
+    margin-left: 30px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    text-indent: 35px;
+}
+
+.logo {
+    background-color: #092d5c;
+    color: #a9c0e8;             
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 30px;
+    padding-left: 10px;
+    width: 100%;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.navegacao a button {
+    border: none;
+    padding: 15px 25px;
+    font-size: 18px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: .2s;
+    color: rgba(245, 251, 255, 0.545);
+}
+
+.navegacao button{ 
+    background: #092d5c;
+} 
+
+.navegacao button:hover {
+    transform: scale(1.1);
+}
