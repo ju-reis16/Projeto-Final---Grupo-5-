@@ -10,7 +10,7 @@ async function fetchPoisonPokemons() {
 
     } catch (err) {
         console.error(err);
-        return [];
+        return ["erro"];
     }
 }
 
