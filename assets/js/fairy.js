@@ -23,11 +23,8 @@ async function fetchFairyPokemons() {
 
 async function createPokemonCards() {
     const container = document.getElementById("pokemon-container");
-    container.innerHTML = "<p>Carregando...</p>";
 
     const pokemons = await fetchFairyPokemons();
-
-    container.innerHTML = ""; 
 
     pokemons.forEach(poke => {
         const card = document.createElement("div");

@@ -16,10 +16,8 @@ async function fetchGhostPokemons() {
 
 async function createGhostCards() {
     const container = document.getElementById("pokemon-container");
-    container.innerHTML = "Carregando...";
 
     const pokes = await fetchGhostPokemons();
-    container.innerHTML = "";
 
     pokes.forEach(p => {
         const card = document.createElement("div");
