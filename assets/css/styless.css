@@ -77,6 +77,39 @@ main {
     
 }
 
+header h2 {
+    background-color: rgb(176, 62, 62);
+    font-family: 'Luckiest Guy', cursive;
+    font-size: 45px;
+    line-height: 50px;
+    margin-bottom: 20px;
+}
+
+.entrada {
+    width: 100%;
+    background: #e7cf9f; ;
+    text-align: center;
+}
+
+.entrada h2 {
+    font-size: 32px;
+    font-weight: 600;
+    color: #000;
+    margin: 0;
+}
+
+.entrada p {
+    font-size: 20px;
+    color: #222;
+    max-width: 850px;
+    margin: 30px auto 0;
+    padding: 20px 25px;
+    background: #ffffff1d;
+    border-radius: 12px;
+    line-height: 1.6;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+
+}
 footer {
     width: 100%;
     background: #111;
