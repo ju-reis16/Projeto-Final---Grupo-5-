@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #f2f2f2;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  background: #ffd1e8;
+  width: 90%;
+  max-width: 1000px;
+  display: flex;
+  padding: 40px;
+  border-radius: 6px;
+}
+
+.texto h1 {
+  font-size: 64px;
+  margin-bottom: 20px;
+}
+
+.texto p {
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+.botao {
+  display: inline-block;
+  margin-top: 25px;
+  padding: 14px 28px;
+  background: #ff007f;
+  color: white;
+  text-decoration: none;
+  border-radius: 30px;
+  font-weight: bold;
+}
+
+.icone {
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
