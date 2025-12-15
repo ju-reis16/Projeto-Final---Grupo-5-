@@ -16,10 +16,8 @@ async function fetchPoisonPokemons() {
 
 async function createPoisonCards() {
     const container = document.getElementById("pokemon-container");
-    container.innerHTML = "Carregando...";
 
     const pokes = await fetchPoisonPokemons();
-    container.innerHTML = "";
 
     pokes.forEach(p => {
         const card = document.createElement("div");
