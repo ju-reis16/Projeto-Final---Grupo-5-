@@ -74,7 +74,7 @@ async function createPokemonCards() {
 
             </div>
 
-            <div class="abilities">
+            <div class="habilities">
                 <p><strong>Habilidades</strong></p>
                 <p>${move1}</p>
                 <p>${move2}</p>
