@@ -144,6 +144,16 @@ h1 {
     }
 }
 
+footer {
+    width: 100%;
+    background: #111;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 15px;
+    margin-top: 0;
+}
+
 @media (max-width: 650px) {
     .navegacao {
         gap: 10px;
